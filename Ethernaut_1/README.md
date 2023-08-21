@@ -13,7 +13,7 @@ To complete this level, you need to:
     await contract.owner()
     ```
 
-Next, you will be presented with the address of the current smart contract owner.
+    Next, you will be presented with the address of the current smart contract owner.
 
 2. The next step is to call the contribute() function of the contract, specifying a value less than 0.001 ETH:
 
@@ -21,7 +21,7 @@ Next, you will be presented with the address of the current smart contract owner
     await contract.contribute({value: toWei("0.0009")})
     ```
 
-By doing so, we have recorded our wallet address in the `mapping(address => uint) contributions`. You can confirm this by calling `await contract.contributions(player)`.
+    By doing so, we have recorded our wallet address in the `mapping(address => uint) contributions`. You can confirm this by calling `await contract.contributions(player)`.
 
 3. Subsequently, we are given the opportunity to send funds (value) to this contract since `contributions[player] > 0`. Let's execute the command:
 
@@ -29,7 +29,7 @@ By doing so, we have recorded our wallet address in the `mapping(address => uint
     await sendTransaction({from: player, to: instance, value: toWei("0.0001")})
     ```
 
-As you can observe, in the `receive()` function, after the `require` block, the contract owner is reassigned. You can confirm that you've successfully become the new owner by calling `await contract.owner()`. The result will be your address.
+    As you can observe, in the `receive()` function, after the `require` block, the contract owner is reassigned. You can confirm that you've successfully become the new owner by calling `await contract.owner()`. The result will be your address.
 
 4. Now that you have become the owner of the smart contract, you can access the `withdraw()` function, which is only available to the owner: 
 

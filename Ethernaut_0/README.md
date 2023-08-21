@@ -72,6 +72,6 @@ Follow the steps below to complete the task based on the provided instructions. 
 
 11. You'll receive a notification of successful completion and the smart contract code you interacted with. For a more detailed examination, you can copy this code into Remix and replicate the interaction.
  
- In this case, go to the "Deploy & Run TRANSACTIONS" tab, deploy the contract, selecting the environment as "Remix VM" with any of the provided accounts. Interaction can be done from the deploying account or any other account.
+    In this case, go to the "Deploy & Run TRANSACTIONS" tab, deploy the contract, selecting the environment as "Remix VM" with any of the provided accounts. Interaction can be done from the deploying account or any other account.
  
- Alternatively, you can interact with it from your crypto wallet by choosing "Injected Provider" as the environment, and paste the instance address in the "At address" field. In this scenario, deployment isn't required; just click the "At address" button after entering the instance address. You'll then be able to interact with the contract. 
+    Alternatively, you can interact with it from your crypto wallet by choosing "Injected Provider" as the environment, and paste the instance address in the "At address" field. In this scenario, deployment isn't required; just click the "At address" button after entering the instance address. You'll then be able to interact with the contract. 
