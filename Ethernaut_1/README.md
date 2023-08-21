@@ -10,7 +10,7 @@ To complete this level, you need to:
 1. We will perform this task using the console. As a first step, let's check who the current owner of the smart contract is: 
 
     ```bash
-    await contract.info1()
+    await contract.owner()
     ```
 
 Next, you will be presented with the address of the current smart contract owner.
