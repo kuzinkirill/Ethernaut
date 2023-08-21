@@ -10,7 +10,7 @@ Follow the steps below to complete the task based on the provided instructions. 
     await contract.info1()
     ```
 
-The output will be `'Try info2(), but with "hello" as a parameter.'
+    The output will be `'Try info2(), but with "hello" as a parameter.'
 
 3. Input the following command:
 
@@ -18,7 +18,7 @@ The output will be `'Try info2(), but with "hello" as a parameter.'
     await contract.info2("hello")
     ```
 
-The console will display `'The property infoNum holds the number of the next info method to call.'
+    The console will display `'The property infoNum holds the number of the next info method to call.'
 
 4. Call the following command:
 
@@ -26,7 +26,7 @@ The console will display `'The property infoNum holds the number of the next inf
     await contract.infoNum()
     ```
 
-Examine the result, and you'll see the string: `words: (2) [42, empty]`. The number 42 is what we need. Find the `info42` method in the contract's ABI.
+    Examine the result, and you'll see the string: `words: (2) [42, empty]`. The number 42 is what we need. Find the `info42` method in the contract's ABI.
 
 5. Execute the following command:
 
@@ -34,7 +34,7 @@ Examine the result, and you'll see the string: `words: (2) [42, empty]`. The num
     await contract.info42()
     ```
 
-You will see `'theMethodName is the name of the next method.'
+    You will see `'theMethodName is the name of the next method.'
 
 6. Run the following command:
 
@@ -42,7 +42,7 @@ You will see `'theMethodName is the name of the next method.'
     await contract.theMethodName()
     ```
 
-The output will be `"The method name is method7123949."
+    The output will be `"The method name is method7123949."
 
 7. Enter the following command:
 
@@ -50,7 +50,7 @@ The output will be `"The method name is method7123949."
     await contract.method7123949()
     ```
 
-The result will be `"If you know the password, submit it to authenticate()."`
+    The result will be `"If you know the password, submit it to authenticate()."`
 
 8. Locate the `password` method in the contract's ABI and call it:
 
@@ -58,7 +58,7 @@ The result will be `"If you know the password, submit it to authenticate()."`
     await contract.password()
     ```
 
-You'll receive the password `"ethernaut0."`
+    You'll receive the password `"ethernaut0."`
 
 9. Proceed to call `authenticate`, providing the corresponding password:
 
@@ -66,7 +66,7 @@ You'll receive the password `"ethernaut0."`
     await contract.authenticate("ethernaut0")
     ```
 
-Sign the transaction in your crypto wallet.
+    Sign the transaction in your crypto wallet.
 
 10. After executing the transaction, submit the instance for verification by clicking "Submit instance" and signing the message using your crypto wallet.
 
