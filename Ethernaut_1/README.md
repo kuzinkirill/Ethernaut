@@ -5,7 +5,7 @@ To complete this level, you need to:
     1. claim ownership of the contract
     2. reduce its balance to 0
 
-## Solutions
+## Solution
 
 1. We will perform this task using the console. As a first step, let's check who the current owner of the smart contract is: 
 
